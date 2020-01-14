@@ -3,8 +3,11 @@
 
 def meal_choice(veg1, veg2, protein='meat')
 
-  puts "what a nutritious meal!"
+  puts "What a nutritious meal!"
 
-  return puts "A plate of #{protein} with #{veg1} and #{veg2}"
+  message = "A plate of #{protein} with #{veg1} and #{veg2}"
+  puts message
+
+  return message
 
 end
